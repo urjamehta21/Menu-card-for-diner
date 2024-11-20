@@ -1,0 +1,42 @@
+img {
+    width: 120px; /* Set the desired width */
+    height:100px /* Maintain aspect ratio */
+
+  }
+.well{
+    font-size: smaller;
+}
+.col-sm-3{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.col-sm-9{
+  background-color:darkgrey;
+}
+
+.nav navbar-nav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.nav navbar-nav a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  
+}
+.nav navbar-nav {
+width: 100%;
+height: auto;
+position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+
