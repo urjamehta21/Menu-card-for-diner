@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #ffff;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a><br>
+    </div>
+    <div class="collapse navbar-collapse"  id="myNavbar" style="width: 25%;">
+      
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="#">Manage Table</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Customers</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+      <h2>Logo</h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Dashboard</a></li>
+        <li><a href="#section2">Manage Table</a></li>
+        <li><a href="#section3">Orders</a></li>
+        <li><a href="#section3">Customers</a></li>
+      </ul><br>
+    </div>
+    <br>
+    
+    <div class="col-sm-9">
+      <div class="well" style="background-color: beige;">
+        <h2 style="color:red;text-align:center; font-size: xx-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bolder; background-color: beige;">Burger Kingdom</h2>
+        <h4 style="font-weight:bold; Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Today's special hamburgers</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="https://img.freepik.com/premium-photo/spicy-burger-hot-fire-restaurant-hamburger-cheese-high-resulation-image-download_594449-369.jpg" alt="">
+            <h5>Spicy Buffelo </h5>
+            <p>Crispy chicken, Mozza cheese,Grilled onions,BBQ sauce</p> 
+            <h5>8$</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="https://embed.widencdn.net/img/mccormick/dy2orpqxvj/800x800px/52%20SPICY%20CRUNCHY%20BURGER.jpeg?keep=c&crop=yes&u=a3rg0s&use=aeriv" alt="">
+            <h5>Crispy chicken</h5>
+            <p>Crispychicken,cheddar cheese, Garlic sauce</p> 
+            <h5>7$</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="https://www.simplyrecipes.com/thmb/xLlEmuAI2k6SFYLoZPn8rDBXBoc=/1200x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mushroom-Swiss-Burger-LEAD-10-e86ce22657bb4a11b5d4b3f4d1230fe3.jpg" alt="">
+            <h5>Creamy Mushrooms</h5>
+            <p>Beef patty, Cream of mushrooms, mozza cheese</p> 
+            <h5>6$</h5>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <img src="https://th.bing.com/th/id/OIP.hjbYdmHeeflKkuPSzldopQAAAA?rs=1&pid=ImgDetMain" alt="">
+            <h5>Cheese Burger</h5>
+            <p>Pork patty,cheddar, Onion sauce,Tomatoes,Mustard</p>
+            <h5>6$</h5>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col">
+          <div class="well">
+            <h4>Other Sides</h4> 
+          </div><br>
+        
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+           <img src="https://th.bing.com/th/id/OIP.TRKuAA8Nt1iBs76N6HDM-AHaE8?rs=1&pid=ImgDetMain" alt="">
+          <br> <h5>Mac and cheese Pasta</h5> 
+          <h5>5$</h5>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <img src="https://eatandcooking.com/wp-content/uploads/2020/12/authentic-mexican-ground-beef-taco-recipe-awesome-ground-beef-tacos-dinner-at-the-zoo-of-authentic-mexican-ground-beef-taco-recipe.jpg" alt="">
+            <h5>Ground beef tacos</h5> 
+            <h5>6$</h5>
+    
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <img src="https://th.bing.com/th/id/OIP.Jmg8k0E-E_Zy1dSj_tjYjgHaE8?rs=1&pid=ImgDetMain" alt="">
+            <h5>Fries</h5> 
+            <h5>5$</h5>
+  
+          </div>
+        </div>
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
